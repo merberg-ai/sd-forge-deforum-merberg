@@ -81,6 +81,7 @@ def create_wan_pipeline(model_path: str = None, pipeline_type: str = "auto"):
         return pipeline
 
 def discover_wan_models():
+    from . import models
     """
     Discover available WAN models
     
