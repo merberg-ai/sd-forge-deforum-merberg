@@ -35,8 +35,8 @@ def on_ui_tabs():
     extension_name = f"{link} of the Deforum Extension for WebUI Forge"
 
     commit_info = f"Git commit: {get_deforum_version()}"
-    #i1_store_backup = f"<p style={style}>{extension_name} - Version: {get_commit_date()} | {commit_info}</p>"
-    i1_store_backup = f"test_build"
+    i1_store_backup = f"<p style={style}>{extension_name} - Version: {get_commit_date()} | {commit_info}</p>"
+    #i1_store_backup = f"test_build"
     i1_store = i1_store_backup
 
     with gr.Blocks(analytics_enabled=False) as deforum_interface:
