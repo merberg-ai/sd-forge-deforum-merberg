@@ -30,7 +30,7 @@ def on_ui_tabs():
     deforum_sys_extend()
     # set text above generate button
     style = '"text-align:center;font-weight:bold;margin-bottom:0em"'
-    extension_url = "https://github.com/merberg-ai/sd-forge-deforum-merberg"
+    extension_url = "https://github.com/merberg-ai/sd-forge-deforum-merberg.git"
     link = f"<a href='{extension_url}' target='_blank'>merberg's fork of Zirteqs Fluxabled Fork</a>"
     extension_name = f"{link} of the Deforum Extension for WebUI Forge"
 
