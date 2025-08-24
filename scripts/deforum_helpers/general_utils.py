@@ -98,7 +98,7 @@ def _get_extension_info():
     from modules import extensions as mext
     try:
         for ext in mext.extensions:
-            if ext.name in ["sd-forge-deforum"] and ext.enabled:
+            if ext.name in ["sd-forge-deforum-merberg"] and ext.enabled:
                 ext.read_info_from_repo()  # need this call to get exten info on ui-launch, not to be removed
                 return ext
         return None
