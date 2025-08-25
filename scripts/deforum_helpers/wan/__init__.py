@@ -66,7 +66,7 @@ def create_wan_pipeline(model_path: str = None, pipeline_type: str = "auto"):
     Returns:
         WAN pipeline instance
     """
-    
+    from . import models
     if UNIFIED_AVAILABLE and WanUnifiedIntegration:
         integration = WanUnifiedIntegration()
         
